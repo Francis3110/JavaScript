@@ -1,0 +1,24 @@
+{
+  "name": "learn-javascript",
+  "version": "1.0.0",
+  "description": "Learn JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "prettier-format": "run-script-os",
+    "prettier-format:win32": "prettier --config .prettierrc \"./src/**/*.js\" --write",
+    "prettier-format:darwin:linux": "prettier --config .prettierrc 'src/**/*.js' --write",
+    "prettier-format:default": "prettier --config .prettierrc 'src/**/*.js' --write"
+  },
+  "author": "Nihta",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "run-script-os": "^1.1.3"
+  }
+}
