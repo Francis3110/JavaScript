@@ -14,6 +14,6 @@ function isMonotonous(sequence) {
 // true
 console.log(isMonotonous([1, 2, 3, 4, 5]));
 // true
-console.log(isMonotonous([5, 4, 3, 2, 1]));
-// false
-console.log(isMonotonous([1, 2, 5, 3, 4]));
+// console.log(isMonotonous([5, 4, 3, 2, 1]));
+// // false
+// console.log(isMonotonous([1, 2, 5, 3, 4]));

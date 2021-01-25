@@ -7,5 +7,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.alwaysShowStatus": true
+  "eslint.alwaysShowStatus": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.showOnStatusbar": false,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "git.autofetch": true,
+  "typescript.disableAutomaticTypeAcquisition": true
 }

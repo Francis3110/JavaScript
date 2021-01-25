@@ -23,4 +23,4 @@ const contacts = [
   { name: 'h', number: '126987034' },
 ];
 
-console.log(contacts[0].number);
+console.log(contacts[3]);

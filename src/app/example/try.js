@@ -14,13 +14,10 @@ const products = [
     {name:'H', price: 11000, quantity: 70,category:'food'},
 ];
 
+// console.log(products);
+// JSON.stringify dùng để conver object => JSON string
+// JSON.parse  thì ngược lại 
+const myString = JSON.stringify(products);
+console.log( myString);
+console.log(JSON.parse(myString));
 
-
-
-// const fil = Sprice.filter(function(a,b){
-
-//     // eslint-disable-next-line no-return-assign
-//     return a*b;
-// });
-
-// console.log(fil);

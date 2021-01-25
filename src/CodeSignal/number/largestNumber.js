@@ -4,7 +4,7 @@
  */
 
 function largestNumber(n) {
-  return 10 ** n - 1;
+  return 10**n - 1;
 }
 
-console.log(largestNumber(4));
+console.log(largestNumber(3));
